@@ -1,0 +1,17 @@
+{
+  "Address": "localhost:4446",
+  "ServiceName": "inventory",
+  "Authority": "http://localhost:4445",
+  "DB": {
+    "Dsn": "mongodb://localhost:27017",
+    "MaxOpenConns": 25,
+    "MaxIdleConns": 25,
+    "MaxIdleTimeMS": 900000
+  },
+  "RabbitMQ": {
+    "Host": "localhost",
+    "Port": 5672,
+    "User": "guest",
+    "Password": "guest"
+  }
+}
